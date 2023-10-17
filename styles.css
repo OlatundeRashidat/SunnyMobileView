@@ -4,6 +4,20 @@
 }
 #item1{
     background-image:url("images/image-header.jpg");
+    border: 3px solid purple;
+    height: max-content;
+    /* width: max-content; */
+   
+}
+.item2, .item3, .item4, .item5{
+  height: max-content;
+  width: max-content;
+  /* border: 4px solid yellow; */
+}
+.container1{
+  height: max-content;
+  width: max-content;
+  /* border: 3px solid green; */
 }
 .sunnysideHeader {
     color: white;
