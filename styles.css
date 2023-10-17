@@ -1,0 +1,109 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#item1{
+    background-image:url("images/image-header.jpg");
+}
+.sunnysideHeader {
+    color: white;
+    text-align: left;
+    font-size: 5em;
+  }
+  .sunnylink{
+    text-align: right;
+  }
+  .about, .services, .project, .contacts{
+    display: flexbox;
+    justify-content: right;
+    text-align: right;
+    padding: 2%; 2% 2% 2%;
+    text-decoration: none;
+    color: black;
+    font-size: 0.5em;
+  }
+svg{
+    margin-left: 50%;
+    margin-top: 5%;
+    }
+    body{
+        background-repeat: no-repeat;
+    }
+    .item6{ 
+      /* border: 2px solid blue; */
+      background-image: url( "images/image-graphic-design.jpg");
+      height: 600px;
+      background-position: left;
+      text-align: center;
+      display: flex;
+      justify-content: left;
+      align-items: end;
+      background-repeat: no-repeat;
+    }
+    .item7{
+      /* border: 2px solid magenta; */
+      background-image: url("images/image-photography.jpg");
+      height: 600px;
+      text-align: center;
+      display: flex;
+      justify-content: left;
+      align-items: end;
+      background-repeat: no-repeat;
+    }
+      .learnmore1, .learnmore2{text-decoration-line: underline;
+        text-decoration-color: brown;
+        text-decoration-thickness: 50%;
+        margin-top: 10%;
+        }
+      .learnmore1, .learnmore2{ cursor: pointer;}
+      .headingdescription{margin-top: 10%;}
+      .extrafont{
+        font-size: 2em;
+      }
+      .header {
+        color: white;
+        margin-top: 75px;
+        font-size: 4em;
+        text-align: center;
+      }
+     
+      .container2items{
+    img{border-radius: 50% 50%;}
+      }
+    
+    
+      #container4{
+        padding-top: 50px;
+        text-align: center;
+        background-color: rgb(129, 182, 129);
+      .footer{
+        font-size: 3em;
+        color: green;
+        margin-top: 3%;
+        }
+        .footerNav{
+            color: green;
+            font-weight: bold;
+            margin-top: 3%;
+          }
+          .footerIcons{
+            margin-top: 5%;
+            cursor: pointer;
+            text-align: center;
+          }
+          .icons{
+            display: inline;
+            padding:20px;
+          }
+          .sunny {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* border: 2px solid green; */
+            width: 100%
+          }
+          nav {
+            text-align: right;
+            margin-right: 20px;
+            /* margin-top: 10px; */
+          }
